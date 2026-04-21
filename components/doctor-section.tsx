@@ -52,7 +52,7 @@ export function DoctorSection() {
               {/* Doctor info header */}
               <div className="space-y-3">
                 <h2 className="text-4xl font-light text-[#1C1C1C] sm:text-5xl">
-                  Dr. Priya Sharma
+                  Our Lead Dermatologist
                 </h2>
                 <div className="flex flex-col gap-1">
                   <p className="text-lg font-light text-[#666666]">
@@ -67,7 +67,7 @@ export function DoctorSection() {
               {/* Bio section */}
               <div className="space-y-4 border-l-2 border-[#1C1C1C] pl-4">
                 <p className="font-light leading-relaxed text-[#1C1C1C]">
-                  Dr. Priya specializes in advanced laser treatments, skin rejuvenation, and evidence-based dermatological solutions. Her expertise spans cutting-edge laser technology, chemical peels, and personalized skincare protocols.
+                  Our Lead Dermatologist specializes in advanced laser treatments, skin rejuvenation, and evidence-based dermatological solutions. Her expertise spans cutting-edge laser technology, chemical peels, and personalized skincare protocols.
                 </p>
                 <p className="font-light leading-relaxed text-[#1C1C1C]">
                   With a patient-centric approach, she ensures every treatment is tailored to individual skin types and concerns. Her commitment to staying current with international dermatological standards ensures you receive world-class care.
@@ -113,12 +113,6 @@ export function DoctorSection() {
               <div className="flex gap-3 pt-4">
                 <Button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="bg-[#1C1C1C] font-light text-white hover:bg-[#333333]">
                   Book Consultation
-                </Button>
-                <Button
-                  variant="outline"
-                  className="border-[#1C1C1C] bg-white/50 font-light text-[#1C1C1C] backdrop-blur-sm hover:bg-white"
-                >
-                  View Portfolio
                 </Button>
               </div>
             </div>

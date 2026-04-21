@@ -56,7 +56,7 @@ export function Footer() {
               <h4 className="text-sm font-medium text-white/80 mb-3">Contact Us</h4>
               <div className="flex flex-col gap-2 text-sm text-white/70">
                 <a href="tel:+919890605888" className="hover:text-[#F9E8E8] transition-colors duration-200">
-                  +91 9999 999 999
+                  +91 9890 605 888
                 </a>
                 <p>Vishrambag, Sangli, India</p>
               </div>
@@ -83,7 +83,7 @@ export function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919890605888"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-lg bg-white/10 hover:bg-[#F9E8E8] text-white hover:text-[#1C1C1C] transition-all duration-200"

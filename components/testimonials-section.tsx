@@ -94,12 +94,7 @@ export function TestimonialsSection() {
           </div>
         </div>
 
-        {/* Scroll indicator on mobile */}
-        <div className="mt-8 flex justify-center sm:hidden">
-          <p className="text-xs text-muted-foreground">
-            Swipe to see more reviews
-          </p>
-        </div>
+
 
         {/* CTA */}
         <div className="mt-12 text-center sm:mt-16">
